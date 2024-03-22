@@ -16,30 +16,39 @@
 // }
   
 // Assignment from Odin Project
-function add7(a) {
-    return a + 7;
-}
-console.log(add7(9));
+// function add7(a) {
+//     return a + 7;
+// }
+// console.log(add7(9));
 
 
-function multiply(a, b){
-    return a * b;
-}
-console.log(multiply(12, 89));
+// function multiply(a, b){
+//     return a * b;
+// }
+// console.log(multiply(12, 89));
 
-function capitalize(word) {
-    return word.charAt(0).toUpperCase() + word.slice(1);
-}
+// function capitalize(word) {
+//     return word.charAt(0).toUpperCase() + word.slice(1);
+// }
 
-console.log(capitalize("chidera"));
+// console.log(capitalize("chidera"));
 
-function lastLetter(inputString) {
-    return inputString.charAt(inputString.length - 1);
-}
+// function lastLetter(inputString) {
+//     return inputString.charAt(inputString.length - 1);
+// }
 
 // Example usage:
-var inputStr = "abcd";
-var result = lastLetter(inputStr);
-console.log(result);
+// var inputStr = "abcd";
+// var result = lastLetter(inputStr);
+// console.log(result);
 
-console.log("hello world");
+// console.log("hello world");
+
+function calculateTip(totalAmount, tipPercentage) {
+    
+    TipAmount = totalAmount * tipPercentage;
+
+    return TipAmount;
+}
+
+console.log(calculateTip(50, 0.15));
